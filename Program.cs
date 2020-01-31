@@ -6,7 +6,12 @@ namespace learn_dotnetcore
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            CarSalesman steveTheSalesaman = new CarSalesman("Steve", "Roger");
+            CarSalesman rohitTheBoss = new CarSalesman("Rohit", "Verma");
+            rohitTheBoss.Sell();
+
+            Console.WriteLine(steveTheSalesaman.FullName);
+            steveTheSalesaman.Sell();
         }
     }
 }
