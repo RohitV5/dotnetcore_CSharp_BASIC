@@ -7,7 +7,7 @@ namespace learn_dotnetcore
         static void Main(string[] args)
         {
             CarSalesman steveTheSalesaman = new CarSalesman("Steve", "Roger");
-            CarSalesman rohitTheBoss = new CarSalesman("Rohit", "Verma");
+            RetailSalesPerson rohitTheBoss = new RetailSalesPerson("Rohit", "Verma");
             rohitTheBoss.Sell();
 
             Console.WriteLine(steveTheSalesaman.FullName);
