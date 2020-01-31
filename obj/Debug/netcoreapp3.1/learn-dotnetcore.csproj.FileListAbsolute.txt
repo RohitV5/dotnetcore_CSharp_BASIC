@@ -1,0 +1,11 @@
+f:\Tuts\learn-dotnetcore\bin\Debug\netcoreapp3.1\learn-dotnetcore.exe
+F:\Tuts\learn-dotnetcore\bin\Debug\netcoreapp3.1\learn-dotnetcore.deps.json
+F:\Tuts\learn-dotnetcore\bin\Debug\netcoreapp3.1\learn-dotnetcore.runtimeconfig.json
+F:\Tuts\learn-dotnetcore\bin\Debug\netcoreapp3.1\learn-dotnetcore.runtimeconfig.dev.json
+f:\Tuts\learn-dotnetcore\bin\Debug\netcoreapp3.1\learn-dotnetcore.dll
+f:\Tuts\learn-dotnetcore\bin\Debug\netcoreapp3.1\learn-dotnetcore.pdb
+f:\Tuts\learn-dotnetcore\obj\Debug\netcoreapp3.1\learn-dotnetcore.csprojAssemblyReference.cache
+f:\Tuts\learn-dotnetcore\obj\Debug\netcoreapp3.1\learn-dotnetcore.AssemblyInfoInputs.cache
+f:\Tuts\learn-dotnetcore\obj\Debug\netcoreapp3.1\learn-dotnetcore.AssemblyInfo.cs
+f:\Tuts\learn-dotnetcore\obj\Debug\netcoreapp3.1\learn-dotnetcore.dll
+f:\Tuts\learn-dotnetcore\obj\Debug\netcoreapp3.1\learn-dotnetcore.pdb
