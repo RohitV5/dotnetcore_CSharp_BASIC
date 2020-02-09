@@ -15,3 +15,7 @@ TestResult.xml
 Version.cs
 Version.h
 Version.cpp
+bin/Debug/netcoreapp3.1/learn-dotnetcore.dll
+bin/Debug/netcoreapp3.1/learn-dotnetcore.pdb
+obj/Debug/netcoreapp3.1/learn-dotnetcore.dll
+obj/Debug/netcoreapp3.1/learn-dotnetcore.pdb
