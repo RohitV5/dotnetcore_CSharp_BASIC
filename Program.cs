@@ -13,6 +13,7 @@ namespace learn_dotnetcore
 
             Console.WriteLine(steveTheSalesaman.FullName);
             steveTheSalesaman.Sell2();
+            steveTheSalesaman.Develop();
         }
     }
 }
