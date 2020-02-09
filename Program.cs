@@ -7,11 +7,12 @@ namespace learn_dotnetcore
         static void Main(string[] args)
         {
             CarSalesman steveTheSalesaman = new CarSalesman("Steve", "Roger");
-            RetailSalesPerson rohitTheBoss = new RetailSalesPerson("Rohit", "Verma");
-            rohitTheBoss.Sell();
+            // the age is not used by abstract class
+            RetailSalesPerson rohitTheBoss = new RetailSalesPerson("Rohit", "Verma",1);
+            rohitTheBoss.Sell2();
 
             Console.WriteLine(steveTheSalesaman.FullName);
-            steveTheSalesaman.Sell();
+            steveTheSalesaman.Sell2();
         }
     }
 }

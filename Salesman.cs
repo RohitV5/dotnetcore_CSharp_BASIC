@@ -28,4 +28,9 @@ public abstract class Salesman
     // This is a method.
     public abstract void Sell();
     
+    // When you dont override you can use this function from abstract class
+    // its ok if you dont overrride a virtual method but you will have to implement abstract method in child class
+    public virtual void Sell2(){
+        Console.WriteLine(string.Format("Hi my name is {0}. I would super recommend you to buy this car",this.FullName));
+    }
 }
