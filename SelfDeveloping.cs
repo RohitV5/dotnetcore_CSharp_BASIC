@@ -1,11 +1,13 @@
 public interface SelfDeveloping
 {
 
-    
+
     public void Develop();
 
-    private int LinesOfCode(){
+    private int LinesOfCode()
+    {
 
-        return 1+1;
+        return 1 + 1;
+
     }
 }

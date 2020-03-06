@@ -6,7 +6,8 @@ public abstract class Developer
 
     public string _mainDevLanguage;
 
-    public Developer (string mainDevLanguage){
+    public Developer(string mainDevLanguage)
+    {
         this._mainDevLanguage = mainDevLanguage;
     }
 
@@ -28,34 +29,36 @@ public abstract class Developer
     //     {
     //         Console.WriteLine(string.Format("I am coding using my main dev language {0}. Additionally {1} ", this._mainDevLanguage, secondExtraDevlanguage));
     //     }
-        
+
     // }
 
-
+    // The virtual keyword is used to modify a method ,property,or event declared in the base class to be overridden in the derived class
+    // The new keyword is used to hide a method, property, indexer or event of base class into derived class
     // Using static polymorphism same name of function but based on parameters specific one will be called
-        public virtual void Code()
+    // Static polymorphism - different numbers, different types, different order
+    public virtual void Code()
     {
 
-            Console.WriteLine(string.Format("I am coding using my main dev language {0}", this._mainDevLanguage));
+        Console.WriteLine(string.Format("I am coding using my main dev language {0}", this._mainDevLanguage));
 
-        
+
     }
 
 
-        public virtual void Code(string firstExtraDevlanguage, string secondExtraDevlanguage)
+    public virtual void Code(string firstExtraDevlanguage, string secondExtraDevlanguage)
     {
-            Console.WriteLine(string.Format("I am coding using my main dev language {0}. Additionally {1} and {2}", this._mainDevLanguage, firstExtraDevlanguage, secondExtraDevlanguage));
+        Console.WriteLine(string.Format("I am coding using my main dev language {0}. Additionally {1} and {2}", this._mainDevLanguage, firstExtraDevlanguage, secondExtraDevlanguage));
 
-        
+
     }
 
 
-        public virtual void Code(string extraDevlanguage)
+    public virtual void Code(string extraDevlanguage)
     {
 
-            Console.WriteLine(string.Format("I am coding using my main dev language {0}. Additionally {1} ", this._mainDevLanguage, extraDevlanguage));
-        
-        
+        Console.WriteLine(string.Format("I am coding using my main dev language {0}. Additionally {1} ", this._mainDevLanguage, extraDevlanguage));
+
+
     }
 
 }
