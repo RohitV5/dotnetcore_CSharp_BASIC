@@ -14,12 +14,12 @@ public class RetailSalesPerson : Salesman, SelfDeveloping
 
 
 
-    // override can overrride abstract as well as cocrete method
-    public override void Sell()
-    {
-        // the properties of the abstract class which are public are accessible in the child class
-        Console.WriteLine(string.Format("Hi my name is {0}. I would recommend you to buy this pen", this.FullName));
-    }
+    // override can overrride abstract as well as marked virtual method
+    // public override void Sell()
+    // {
+    //     // the properties of the abstract class which are public are accessible in the child class
+    //     Console.WriteLine(string.Format("Hi my name is {0}. I would recommend you to buy this pen", this.FullName));
+    // }
 
 
 
@@ -33,6 +33,29 @@ public class RetailSalesPerson : Salesman, SelfDeveloping
     public void Develop()
     {
         Console.WriteLine("I developed using watching videos");
+    }
+
+
+
+    protected override void Engage()
+    {
+        Console.WriteLine("Hello");
+    }
+    protected override void EstablishTrust()
+    {
+        Console.WriteLine("I just want to quickly help you");
+    }
+    protected override void AddressConcern()
+    {
+        Console.WriteLine("Everything is discounted 50%");
+    }
+    protected override void DemoValue()
+    {
+        Console.WriteLine("Our customers love it");
+    }
+    protected override void Close()
+    {
+        Console.WriteLine("Buy this pen");
     }
 
 
